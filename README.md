@@ -1,4 +1,12 @@
+# README
+
 # Hashira Code Theme
+
+<div align="center">
+
+![Hashira Code Theme Logo](scrlogo.jpeg)
+
+</div>
 
 A collection of dark and light themes for Visual Studio Code, inspired by the Hashira from Demon Slayer.
 
