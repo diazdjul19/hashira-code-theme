@@ -1,0 +1,66 @@
+{
+  "name": "hashira-code-theme",
+  "displayName": "Hashira Code Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hashira Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hashira Code-color-theme.json"
+      },
+      {
+        "label": "Sanemi Shinazugawa",
+        "uiTheme": "vs-light",
+        "path": "./themes/hashira-sanemi-shinazugawa.json"
+      },
+      {
+        "label": "Giyu Tomioka",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-giyu-tomioka.json"
+      },
+      {
+        "label": "Gyomei Himejima",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-gyomei-himejima.json"
+      },
+      {
+        "label": "Kyojuro Rengoku",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-kyojuro-rengoku.json"
+      },
+      {
+        "label": "Mitsuri Kanroji",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-mitsuri-kanroji.json"
+      },
+      {
+        "label": "Muiciro Tokito",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-muiciro-tokito.json"
+      },
+      {
+        "label": "Obanai Iguro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-obanai-iguro.json"
+      },
+      {
+        "label": "Shinobu Kocho",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-shinobu-kocho.json"
+      },
+      {
+        "label": "Tengen Uzui",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hashira-tengen-uzui.json"
+      }
+    ]
+  }
+}
