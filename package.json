@@ -1,25 +1,39 @@
 {
   "name": "hashira-code-theme",
   "displayName": "Hashira Code Theme",
-  "description": "",
+  "author": {
+    "name": "Diaz Djuliansyah",
+    "email": "diazdjul19@gmail.com"
+  },
+  "description": "A collection of VS Code color themes inspired by the Hashira from Demon Slayer.",
   "version": "0.0.1",
+  "publisher": "devLocifer",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "hashira",
+    "demon slayer",
+    "anime",
+    "dark",
+    "light"
+  ],
+  "homepage": "https://github.com/diazdjul19/hashira-code-theme#readme",
+  "bugs": {
+    "url": "https://github.com/diazdjul19/hashira-code-theme/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/diazdjul19/hashira-code-theme.git"
   },
-  "engines": {
-    "vscode": "^1.101.0"
-  },
-  "categories": [
-    "Themes"
-  ],
   "contributes": {
     "themes": [
-      {
-        "label": "Hashira Code",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Hashira Code-color-theme.json"
-      },
       {
         "label": "Sanemi Shinazugawa",
         "uiTheme": "hc-light",
@@ -66,5 +80,8 @@
         "path": "./themes/hashira-tengen-uzui.json"
       }
     ]
+  },
+  "scripts": {
+    "publish": "vsce publish"
   }
 }
